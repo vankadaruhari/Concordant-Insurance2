@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<realtime:RealTimeSearch xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nsAttributeDatatypes="http://xcp.emc.com/attribute_datatypes" xmlns:nsDataserviceContract="http://xcp.emc.com/DataserviceContract" xmlns:nsDatatypes="http://xcp.emc.com/datatypes" xmlns:realtime="http://xcp.emc.com/search/realtime" urn="urn:ci2:com.emc.xcp.artifact.search.realtime:Artifacts/Real-time Queries/policy_search.realtime" categoryId="com.emc.xcp.artifact.search.realtime" name="policy_search" label="Policy Search" description="Policy Search based On Policy Holder Last Name" returnCount="true">
+  <datasource categoryId="com.emc.xcp.artifact.dataservice.datasourcecontract" name="policy_search" label="Policy Search" description="Policy Search based On Policy Holder Last Name" implCategoryId="com.emc.xcp.artifact.search.realtime">
+    <inputs xsi:type="nsDataserviceContract:AttributeElement" name="input_last_name" label="Last Name">
+      <attributeType xsi:type="nsAttributeDatatypes:StringType"/>
+    </inputs>
+    <outputs xsi:type="nsDataserviceContract:AttributeElement" name="Result Count">
+      <attributeType xsi:type="nsAttributeDatatypes:IntegerType"/>
+    </outputs>
+    <outputs xsi:type="nsDataserviceContract:ArrayElement" name="Results">
+      <item xsi:type="nsDataserviceContract:StructureElement" name="Items">
+        <elements xsi:type="nsDataserviceContract:AttributeElement" name="last_name" label="Last Name">
+          <attributeType xsi:type="nsAttributeDatatypes:StringType"/>
+        </elements>
+        <elements xsi:type="nsDataserviceContract:AttributeElement" name="first_name" label="First Name">
+          <attributeType xsi:type="nsAttributeDatatypes:StringType"/>
+        </elements>
+        <elements xsi:type="nsDataserviceContract:AttributeElement" name="end_date" label="End Date">
+          <attributeType xsi:type="nsAttributeDatatypes:DateTimeType"/>
+        </elements>
+        <elements xsi:type="nsDataserviceContract:AttributeElement" name="new_string" label="Address">
+          <attributeType xsi:type="nsAttributeDatatypes:StringType"/>
+        </elements>
+        <elements xsi:type="nsDataserviceContract:AttributeElement" name="coverage" label="Coverage">
+          <attributeType xsi:type="nsAttributeDatatypes:FloatType"/>
+        </elements>
+        <elements xsi:type="nsDataserviceContract:AttributeElement" name="id" label="Object ID">
+          <attributeType xsi:type="nsAttributeDatatypes:StringType"/>
+        </elements>
+        <elements xsi:type="nsDataserviceContract:AttributeElement" name="r_object_type" label="Object type" sortable="true" hidden="true">
+          <attributeType xsi:type="nsAttributeDatatypes:StringType"/>
+        </elements>
+      </item>
+    </outputs>
+    <primaryElement>
+      <dataModel href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#/"/>
+    </primaryElement>
+  </datasource>
+  <inputParameters label="Last Name" name="last_name">
+    <formInputs xsi:type="realtime:RealTimeStringFormInput" operator="com.emc.xcp.model.common.StringOperator:CONTAIN" isCaseInsensitive="true">
+      <contextSelection>
+        <parentRef>
+          <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#/"/>
+        </parentRef>
+        <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#//@attributes[name='last_name']"/>
+      </contextSelection>
+    </formInputs>
+  </inputParameters>
+  <columns label="Last Name">
+    <contextSelection>
+      <parentRef>
+        <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#/"/>
+      </parentRef>
+      <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#//@attributes[name='last_name']"/>
+    </contextSelection>
+  </columns>
+  <columns label="First Name">
+    <contextSelection>
+      <parentRef>
+        <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#/"/>
+      </parentRef>
+      <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#//@attributes[name='first_name']"/>
+    </contextSelection>
+  </columns>
+  <columns label="End Date">
+    <contextSelection>
+      <parentRef>
+        <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#/"/>
+      </parentRef>
+      <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#//@attributes[name='end_date']"/>
+    </contextSelection>
+  </columns>
+  <columns label="Address">
+    <contextSelection>
+      <parentRef>
+        <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#/"/>
+      </parentRef>
+      <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#//@attributes[name='new_string']"/>
+    </contextSelection>
+  </columns>
+  <columns label="Coverage">
+    <contextSelection>
+      <parentRef>
+        <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#/"/>
+      </parentRef>
+      <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#//@attributes[name='coverage']"/>
+    </contextSelection>
+  </columns>
+  <columns label="Object ID">
+    <contextSelection>
+      <parentRef>
+        <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#/"/>
+      </parentRef>
+      <dataRef href="urn:xcp:com.emc.xcp.artifact.basetype:Artifacts/Base Type/basetype.basetype#//@attributes[name='r_object_id']"/>
+    </contextSelection>
+  </columns>
+  <defaultSort ascending="true"/>
+  <dataType xsi:type="nsDatatypes:BusinessObject" href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#/"/>
+  <resultOrientation>
+    <dataRef href="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj#/"/>
+  </resultOrientation>
+</realtime:RealTimeSearch>
