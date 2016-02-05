@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uitemplate:Page xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uitemplate="http://www.emc.com/xcp2/2010/uitemplate" urn="urn:ci2:com.emc.xcp.artifact.page:Artifacts/Pages/page_not_found.page" categoryId="com.emc.xcp.artifact.page" name="page_not_found" label="System 404 Page" templateType="admin" templateScope="SYSTEM">
+  <title exprStr="System 404 Page"/>
+  <rootContainer widgetEntry="//@widgetMap[key='root']">
+    <properties name="xcpId" value="root" entry="//@rootContainer/@propertyMap.0"/>
+    <propertyMap key="xcpId" value="//@rootContainer/@properties.0"/>
+  </rootContainer>
+  <widgetMap key="root" value="//@rootContainer"/>
+</uitemplate:Page>

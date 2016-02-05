@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uitemplate:Page xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uitemplate="http://www.emc.com/xcp2/2010/uitemplate" urn="urn:ci2:com.emc.xcp.artifact.page:Artifacts/Pages/application_parameter.page" categoryId="com.emc.xcp.artifact.page" name="application_parameter" label="Manage Application Parameters" templateType="admin" templateScope="SYSTEM">
+  <title exprStr="Manage Application Parameters"/>
+  <rootContainer widgetEntry="//@widgetMap[key='root']">
+    <properties name="xcpId" value="root" entry="//@rootContainer/@propertyMap.0"/>
+    <propertyMap key="xcpId" value="//@rootContainer/@properties.0"/>
+    <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_column_box" parent="//@rootContainer" widgetEntry="//@widgetMap[key='column_box']">
+      <properties name="title" value="" entry="//@rootContainer/@children.0/@propertyMap.0"/>
+      <properties name="collapsible" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@propertyMap.1"/>
+      <properties name="collapsed" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@propertyMap.2"/>
+      <properties name="collapseFirst" value="true" type="BOOLEAN" entry="//@rootContainer/@children.0/@propertyMap.3"/>
+      <properties name="border" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@propertyMap.4"/>
+      <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.0/@propertyMap.5"/>
+      <properties name="margins" value="" entry="//@rootContainer/@children.0/@propertyMap.6"/>
+      <properties name="layout" value="xcp_columnbox" entry="//@rootContainer/@children.0/@propertyMap.7"/>
+      <properties name="hidden" value="" entry="//@rootContainer/@children.0/@propertyMap.8"/>
+      <properties name="cls" value="" entry="//@rootContainer/@children.0/@propertyMap.9"/>
+      <properties name="xcpId" value="column_box" entry="//@rootContainer/@children.0/@propertyMap.10"/>
+      <propertyMap key="title" value="//@rootContainer/@children.0/@properties.0"/>
+      <propertyMap key="collapsible" value="//@rootContainer/@children.0/@properties.1"/>
+      <propertyMap key="collapsed" value="//@rootContainer/@children.0/@properties.2"/>
+      <propertyMap key="collapseFirst" value="//@rootContainer/@children.0/@properties.3"/>
+      <propertyMap key="border" value="//@rootContainer/@children.0/@properties.4"/>
+      <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@properties.5"/>
+      <propertyMap key="margins" value="//@rootContainer/@children.0/@properties.6"/>
+      <propertyMap key="layout" value="//@rootContainer/@children.0/@properties.7"/>
+      <propertyMap key="hidden" value="//@rootContainer/@children.0/@properties.8"/>
+      <propertyMap key="cls" value="//@rootContainer/@children.0/@properties.9"/>
+      <propertyMap key="xcpId" value="//@rootContainer/@children.0/@properties.10"/>
+      <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_columnhbox" parent="//@rootContainer/@children.0" widgetEntry="//@widgetMap[key='columnhbox']">
+        <properties name="orientation" value="Horizontal" entry="//@rootContainer/@children.0/@children.0/@propertyMap.0"/>
+        <properties name="width" value="100%" entry="//@rootContainer/@children.0/@children.0/@propertyMap.1"/>
+        <properties name="minWidth" value="" type="INTEGER" entry="//@rootContainer/@children.0/@children.0/@propertyMap.2"/>
+        <properties name="overflow_x" value="hidden" entry="//@rootContainer/@children.0/@children.0/@propertyMap.3"/>
+        <properties name="split" value="" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.0/@propertyMap.4"/>
+        <properties name="labelWidth" value="50" type="INTEGER" entry="//@rootContainer/@children.0/@children.0/@propertyMap.5"/>
+        <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.0/@children.0/@propertyMap.6"/>
+        <properties name="margins" value="" entry="//@rootContainer/@children.0/@children.0/@propertyMap.7"/>
+        <properties name="labelAlign" value="left" entry="//@rootContainer/@children.0/@children.0/@propertyMap.8"/>
+        <properties name="halign" value="left" entry="//@rootContainer/@children.0/@children.0/@propertyMap.9"/>
+        <properties name="valign" value="bottom" entry="//@rootContainer/@children.0/@children.0/@propertyMap.10"/>
+        <properties name="xcpId" value="columnhbox" entry="//@rootContainer/@children.0/@children.0/@propertyMap.11"/>
+        <propertyMap key="orientation" value="//@rootContainer/@children.0/@children.0/@properties.0"/>
+        <propertyMap key="width" value="//@rootContainer/@children.0/@children.0/@properties.1"/>
+        <propertyMap key="minWidth" value="//@rootContainer/@children.0/@children.0/@properties.2"/>
+        <propertyMap key="overflow_x" value="//@rootContainer/@children.0/@children.0/@properties.3"/>
+        <propertyMap key="split" value="//@rootContainer/@children.0/@children.0/@properties.4"/>
+        <propertyMap key="labelWidth" value="//@rootContainer/@children.0/@children.0/@properties.5"/>
+        <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@children.0/@properties.6"/>
+        <propertyMap key="margins" value="//@rootContainer/@children.0/@children.0/@properties.7"/>
+        <propertyMap key="labelAlign" value="//@rootContainer/@children.0/@children.0/@properties.8"/>
+        <propertyMap key="halign" value="//@rootContainer/@children.0/@children.0/@properties.9"/>
+        <propertyMap key="valign" value="//@rootContainer/@children.0/@children.0/@properties.10"/>
+        <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.0/@properties.11"/>
+        <children componentDefinitionId="xcp_rich_text" parent="//@rootContainer/@children.0/@children.0" widgetEntry="//@widgetMap[key='rich_text']">
+          <properties name="html" value="&lt;div style=&quot;font-weight:bold;color:#363636;font-size:20px;padding-top:16;padding-bottom:16;&quot;>Application Parameters&lt;/div>" entry="//@rootContainer/@children.0/@children.0/@children.0/@propertyMap.0"/>
+          <properties name="cls" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@propertyMap.1"/>
+          <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@propertyMap.2"/>
+          <properties name="mandatory" value="false" entry="//@rootContainer/@children.0/@children.0/@children.0/@propertyMap.3"/>
+          <properties name="hideErrorInToolTip" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.0/@children.0/@propertyMap.4"/>
+          <properties name="stopOnValidationFail" value="true" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.0/@children.0/@propertyMap.5"/>
+          <properties name="valid" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@propertyMap.6"/>
+          <properties name="xcpId" value="rich_text" entry="//@rootContainer/@children.0/@children.0/@children.0/@propertyMap.7"/>
+          <propertyMap key="html" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.0"/>
+          <propertyMap key="cls" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.1"/>
+          <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.2"/>
+          <propertyMap key="mandatory" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.3"/>
+          <propertyMap key="hideErrorInToolTip" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.4"/>
+          <propertyMap key="stopOnValidationFail" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.5"/>
+          <propertyMap key="valid" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.6"/>
+          <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.7"/>
+        </children>
+      </children>
+    </children>
+    <children componentDefinitionId="xcp_app_param_container" parent="//@rootContainer" widgetEntry="//@widgetMap[key='app_param_container']">
+      <properties name="xcpId" value="app_param_container" entry="//@rootContainer/@children.1/@propertyMap.0"/>
+      <propertyMap key="xcpId" value="//@rootContainer/@children.1/@properties.0"/>
+    </children>
+    <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_column_box" parent="//@rootContainer" widgetEntry="//@widgetMap[key='column_box1']">
+      <properties name="title" value="" entry="//@rootContainer/@children.2/@propertyMap.0"/>
+      <properties name="collapsible" value="false" type="BOOLEAN" entry="//@rootContainer/@children.2/@propertyMap.1"/>
+      <properties name="collapsed" value="false" type="BOOLEAN" entry="//@rootContainer/@children.2/@propertyMap.2"/>
+      <properties name="collapseFirst" value="true" type="BOOLEAN" entry="//@rootContainer/@children.2/@propertyMap.3"/>
+      <properties name="border" value="false" type="BOOLEAN" entry="//@rootContainer/@children.2/@propertyMap.4"/>
+      <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.2/@propertyMap.5"/>
+      <properties name="margins" value="" entry="//@rootContainer/@children.2/@propertyMap.6"/>
+      <properties name="layout" value="xcp_columnbox" entry="//@rootContainer/@children.2/@propertyMap.7"/>
+      <properties name="hidden" value="" entry="//@rootContainer/@children.2/@propertyMap.8"/>
+      <properties name="cls" value="" entry="//@rootContainer/@children.2/@propertyMap.9"/>
+      <properties name="xcpId" value="column_box1" entry="//@rootContainer/@children.2/@propertyMap.10"/>
+      <propertyMap key="title" value="//@rootContainer/@children.2/@properties.0"/>
+      <propertyMap key="collapsible" value="//@rootContainer/@children.2/@properties.1"/>
+      <propertyMap key="collapsed" value="//@rootContainer/@children.2/@properties.2"/>
+      <propertyMap key="collapseFirst" value="//@rootContainer/@children.2/@properties.3"/>
+      <propertyMap key="border" value="//@rootContainer/@children.2/@properties.4"/>
+      <propertyMap key="defaultMargins" value="//@rootContainer/@children.2/@properties.5"/>
+      <propertyMap key="margins" value="//@rootContainer/@children.2/@properties.6"/>
+      <propertyMap key="layout" value="//@rootContainer/@children.2/@properties.7"/>
+      <propertyMap key="hidden" value="//@rootContainer/@children.2/@properties.8"/>
+      <propertyMap key="cls" value="//@rootContainer/@children.2/@properties.9"/>
+      <propertyMap key="xcpId" value="//@rootContainer/@children.2/@properties.10"/>
+      <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_columnhbox" parent="//@rootContainer/@children.2" widgetEntry="//@widgetMap[key='columnhbox1']">
+        <properties name="orientation" value="Horizontal" entry="//@rootContainer/@children.2/@children.0/@propertyMap.0"/>
+        <properties name="width" value="100%" entry="//@rootContainer/@children.2/@children.0/@propertyMap.1"/>
+        <properties name="minWidth" value="" type="INTEGER" entry="//@rootContainer/@children.2/@children.0/@propertyMap.2"/>
+        <properties name="overflow_x" value="hidden" entry="//@rootContainer/@children.2/@children.0/@propertyMap.3"/>
+        <properties name="split" value="" type="BOOLEAN" entry="//@rootContainer/@children.2/@children.0/@propertyMap.4"/>
+        <properties name="labelWidth" value="50" type="INTEGER" entry="//@rootContainer/@children.2/@children.0/@propertyMap.5"/>
+        <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.2/@children.0/@propertyMap.6"/>
+        <properties name="margins" value="" entry="//@rootContainer/@children.2/@children.0/@propertyMap.7"/>
+        <properties name="labelAlign" value="left" entry="//@rootContainer/@children.2/@children.0/@propertyMap.8"/>
+        <properties name="halign" value="right" entry="//@rootContainer/@children.2/@children.0/@propertyMap.9"/>
+        <properties name="valign" value="top" entry="//@rootContainer/@children.2/@children.0/@propertyMap.10"/>
+        <properties name="xcpId" value="columnhbox1" entry="//@rootContainer/@children.2/@children.0/@propertyMap.11"/>
+        <propertyMap key="orientation" value="//@rootContainer/@children.2/@children.0/@properties.0"/>
+        <propertyMap key="width" value="//@rootContainer/@children.2/@children.0/@properties.1"/>
+        <propertyMap key="minWidth" value="//@rootContainer/@children.2/@children.0/@properties.2"/>
+        <propertyMap key="overflow_x" value="//@rootContainer/@children.2/@children.0/@properties.3"/>
+        <propertyMap key="split" value="//@rootContainer/@children.2/@children.0/@properties.4"/>
+        <propertyMap key="labelWidth" value="//@rootContainer/@children.2/@children.0/@properties.5"/>
+        <propertyMap key="defaultMargins" value="//@rootContainer/@children.2/@children.0/@properties.6"/>
+        <propertyMap key="margins" value="//@rootContainer/@children.2/@children.0/@properties.7"/>
+        <propertyMap key="labelAlign" value="//@rootContainer/@children.2/@children.0/@properties.8"/>
+        <propertyMap key="halign" value="//@rootContainer/@children.2/@children.0/@properties.9"/>
+        <propertyMap key="valign" value="//@rootContainer/@children.2/@children.0/@properties.10"/>
+        <propertyMap key="xcpId" value="//@rootContainer/@children.2/@children.0/@properties.11"/>
+        <children componentDefinitionId="xcp_button" parent="//@rootContainer/@children.2/@children.0" widgetEntry="//@widgetMap[key='button']">
+          <properties name="text" value="Save" entry="//@rootContainer/@children.2/@children.0/@children.0/@propertyMap.0"/>
+          <properties xsi:type="uitemplate:ObjectProperty" entry="//@rootContainer/@children.2/@children.0/@children.0/@propertyMap.1">
+            <action>
+              <properties name="actionType" value="updateparameters" entry="//@rootContainer/@children.2/@children.0/@children.0/@properties.1/@action/@propertyMap.0"/>
+              <propertyMap key="actionType" value="//@rootContainer/@children.2/@children.0/@children.0/@properties.1/@action/@properties.0"/>
+            </action>
+          </properties>
+          <properties name="actionInstanceId" value="" entry="//@rootContainer/@children.2/@children.0/@children.0/@propertyMap.2"/>
+          <properties name="cls" value="" entry="//@rootContainer/@children.2/@children.0/@children.0/@propertyMap.3"/>
+          <properties name="disabled" value="" entry="//@rootContainer/@children.2/@children.0/@children.0/@propertyMap.4"/>
+          <properties name="hidden" value="" entry="//@rootContainer/@children.2/@children.0/@children.0/@propertyMap.5"/>
+          <properties name="redirectPageUrlName" value="" entry="//@rootContainer/@children.2/@children.0/@children.0/@propertyMap.6"/>
+          <properties name="redirectObjectId" value="" entry="//@rootContainer/@children.2/@children.0/@children.0/@propertyMap.7"/>
+          <properties name="xcpId" value="button" entry="//@rootContainer/@children.2/@children.0/@children.0/@propertyMap.8"/>
+          <propertyMap key="text" value="//@rootContainer/@children.2/@children.0/@children.0/@properties.0"/>
+          <propertyMap key="action" value="//@rootContainer/@children.2/@children.0/@children.0/@properties.1"/>
+          <propertyMap key="actionInstanceId" value="//@rootContainer/@children.2/@children.0/@children.0/@properties.2"/>
+          <propertyMap key="cls" value="//@rootContainer/@children.2/@children.0/@children.0/@properties.3"/>
+          <propertyMap key="disabled" value="//@rootContainer/@children.2/@children.0/@children.0/@properties.4"/>
+          <propertyMap key="hidden" value="//@rootContainer/@children.2/@children.0/@children.0/@properties.5"/>
+          <propertyMap key="redirectPageUrlName" value="//@rootContainer/@children.2/@children.0/@children.0/@properties.6"/>
+          <propertyMap key="redirectObjectId" value="//@rootContainer/@children.2/@children.0/@children.0/@properties.7"/>
+          <propertyMap key="xcpId" value="//@rootContainer/@children.2/@children.0/@children.0/@properties.8"/>
+        </children>
+        <children componentDefinitionId="xcp_button" parent="//@rootContainer/@children.2/@children.0" widgetEntry="//@widgetMap[key='cancel_goto_homepage']">
+          <properties name="text" value="Cancel" entry="//@rootContainer/@children.2/@children.0/@children.1/@propertyMap.0"/>
+          <properties xsi:type="uitemplate:ObjectProperty" entry="//@rootContainer/@children.2/@children.0/@children.1/@propertyMap.1">
+            <action>
+              <properties name="redirectStyle" value="application" entry="//@rootContainer/@children.2/@children.0/@children.1/@properties.1/@action/@propertyMap.0"/>
+              <properties name="actionType" value="xcp_gotopage" entry="//@rootContainer/@children.2/@children.0/@children.1/@properties.1/@action/@propertyMap.1"/>
+              <propertyMap key="redirectStyle" value="//@rootContainer/@children.2/@children.0/@children.1/@properties.1/@action/@properties.0"/>
+              <propertyMap key="actionType" value="//@rootContainer/@children.2/@children.0/@children.1/@properties.1/@action/@properties.1"/>
+            </action>
+          </properties>
+          <properties name="actionInstanceId" value="" entry="//@rootContainer/@children.2/@children.0/@children.1/@propertyMap.2"/>
+          <properties name="cls" value="" entry="//@rootContainer/@children.2/@children.0/@children.1/@propertyMap.3"/>
+          <properties name="disabled" value="" entry="//@rootContainer/@children.2/@children.0/@children.1/@propertyMap.4"/>
+          <properties name="hidden" value="" entry="//@rootContainer/@children.2/@children.0/@children.1/@propertyMap.5"/>
+          <properties name="redirectPageUrlName" value="" entry="//@rootContainer/@children.2/@children.0/@children.1/@propertyMap.6"/>
+          <properties name="redirectObjectId" value="" entry="//@rootContainer/@children.2/@children.0/@children.1/@propertyMap.7"/>
+          <properties name="xcpId" value="cancel_goto_homepage" entry="//@rootContainer/@children.2/@children.0/@children.1/@propertyMap.8"/>
+          <propertyMap key="text" value="//@rootContainer/@children.2/@children.0/@children.1/@properties.0"/>
+          <propertyMap key="action" value="//@rootContainer/@children.2/@children.0/@children.1/@properties.1"/>
+          <propertyMap key="actionInstanceId" value="//@rootContainer/@children.2/@children.0/@children.1/@properties.2"/>
+          <propertyMap key="cls" value="//@rootContainer/@children.2/@children.0/@children.1/@properties.3"/>
+          <propertyMap key="disabled" value="//@rootContainer/@children.2/@children.0/@children.1/@properties.4"/>
+          <propertyMap key="hidden" value="//@rootContainer/@children.2/@children.0/@children.1/@properties.5"/>
+          <propertyMap key="redirectPageUrlName" value="//@rootContainer/@children.2/@children.0/@children.1/@properties.6"/>
+          <propertyMap key="redirectObjectId" value="//@rootContainer/@children.2/@children.0/@children.1/@properties.7"/>
+          <propertyMap key="xcpId" value="//@rootContainer/@children.2/@children.0/@children.1/@properties.8"/>
+        </children>
+      </children>
+    </children>
+  </rootContainer>
+  <widgetMap key="root" value="//@rootContainer"/>
+  <widgetMap key="column_box" value="//@rootContainer/@children.0"/>
+  <widgetMap key="columnhbox" value="//@rootContainer/@children.0/@children.0"/>
+  <widgetMap key="rich_text" value="//@rootContainer/@children.0/@children.0/@children.0"/>
+  <widgetMap key="app_param_container" value="//@rootContainer/@children.1"/>
+  <widgetMap key="column_box1" value="//@rootContainer/@children.2"/>
+  <widgetMap key="columnhbox1" value="//@rootContainer/@children.2/@children.0"/>
+  <widgetMap key="button" value="//@rootContainer/@children.2/@children.0/@children.0"/>
+  <widgetMap key="cancel_goto_homepage" value="//@rootContainer/@children.2/@children.0/@children.1"/>
+</uitemplate:Page>

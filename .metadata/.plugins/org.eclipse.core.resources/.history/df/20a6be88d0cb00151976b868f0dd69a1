@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nsviewerformat:Viewers xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:nsviewerformat="http://xcp2.emc.com/viewerformat" urn="urn:ci2:com.emc.xcp.artifact.viewermapping:Artifacts/Viewer Formats/viewerformatmapping.viewerformat" categoryId="com.emc.xcp.artifact.viewermapping" name="viewerformatmapping" label="Viewers and Formats"/>

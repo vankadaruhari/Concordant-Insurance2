@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Artifact:ArtifactIndexes xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Artifact="http://com.emc.xcp.builder/artifactmodel" urn="indexfile">
+  <indexes urn="urn:ci2:com.emc.xcp.artifact.page:Artifacts/Pages/appmaster_defpage.page" categoryId="com.emc.xcp.artifact.page" path="Artifacts/Pages/appmaster_defpage.page" label="appmaster_defpage" name="appmaster_defpage"/>
+</Artifact:ArtifactIndexes>

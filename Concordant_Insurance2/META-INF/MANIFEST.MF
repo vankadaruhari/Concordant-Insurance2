@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Require-Bundle: xcpui.xcpui;bundle-version="2.2.0", xcpcomm.xcpcommons
+ ;bundle-version="2.2.0", xcp.xcpcore;bundle-version="2.2.0"
+Bundle-ClassPath: .
+Bundle-Version: 1.0.0.201602051150
+EMC-XCP-ExecutionEnvironment: com.emc.executionenvironment.xcp:2.2.5
+Bundle-Name: Concordant_Insurance2
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: ci2.Concordant_Insurance2
+NAMESPACE: ci2
+

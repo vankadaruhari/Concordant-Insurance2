@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application name="Concordant_Insurance2" perspective="com.emc.xcp.builder.appperspective">
+<editors>
+<editor active="true" id="com.emc.xcp.builder.ui.XcpApplicationEditor" path="/Concordant_Insurance2/pom.xml"/>
+</editors>
+</application>

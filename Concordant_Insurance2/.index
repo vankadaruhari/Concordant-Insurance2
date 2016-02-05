@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Artifact:ArtifactIndexes xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Artifact="http://com.emc.xcp.builder/artifactmodel" urn="indexfile">
+  <indexes urn="urn:ci2:com.emc.xcp.artifact.page:Artifacts/Pages/appmaster_defpage.page" categoryId="com.emc.xcp.artifact.page" path="Artifacts/Pages/appmaster_defpage.page" label="appmaster_defpage" name="appmaster_defpage"/>
+  <indexes urn="urn:ci2:com.emc.xcp.artifact.page:Artifacts/Pages/application_master.page" categoryId="com.emc.xcp.artifact.page" path="Artifacts/Pages/application_master.page" label="Master" name="application_master"/>
+  <indexes urn="urn:ci2:com.emc.xcp.artifact.page:Artifacts/Pages/page_not_found.page" categoryId="com.emc.xcp.artifact.page" path="Artifacts/Pages/page_not_found.page" label="System 404 Page" name="page_not_found"/>
+  <indexes urn="urn:ci2:com.emc.xcp.artifact.page:Artifacts/Pages/manage_app_role.page" categoryId="com.emc.xcp.artifact.page" path="Artifacts/Pages/manage_app_role.page" label="Manage Application Roles" name="manage_app_role"/>
+  <indexes urn="urn:ci2:com.emc.xcp.artifact.page:Artifacts/Pages/application_parameter.page" categoryId="com.emc.xcp.artifact.page" path="Artifacts/Pages/application_parameter.page" label="Manage Application Parameters" name="application_parameter"/>
+  <indexes urn="urn:ci2:com.emc.xcp.artifact.page:Artifacts/Pages/role_member.page" categoryId="com.emc.xcp.artifact.page" path="Artifacts/Pages/role_member.page" label="View Role Member" name="role_member"/>
+  <indexes urn="urn:ci2:com.emc.xcp.artifact.viewermapping:Artifacts/Viewer Formats/viewerformatmapping.viewerformat" categoryId="com.emc.xcp.artifact.viewermapping" path="Artifacts/Viewer Formats/viewerformatmapping.viewerformat" label="Viewers and Formats" name="viewerformatmapping"/>
+</Artifact:ArtifactIndexes>

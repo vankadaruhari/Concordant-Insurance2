@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uitemplate:Page xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uitemplate="http://www.emc.com/xcp2/2010/uitemplate" urn="urn:ci2:com.emc.xcp.artifact.page:Artifacts/Pages/page_not_found.page" categoryId="com.emc.xcp.artifact.page" name="page_not_found" label="System 404 Page" templateType="admin" templateScope="SYSTEM">
+  <title exprStr="System 404 Page"/>
+  <rootContainer widgetEntry="//@widgetMap[key='root']">
+    <properties name="xcpId" value="root" entry="//@rootContainer/@propertyMap.0"/>
+    <propertyMap key="xcpId" value="//@rootContainer/@properties.0"/>
+    <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_column_box" parent="//@rootContainer" widgetEntry="//@widgetMap[key='column_box']">
+      <properties name="title" value="" entry="//@rootContainer/@children.0/@propertyMap.0"/>
+      <properties name="collapsible" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@propertyMap.1"/>
+      <properties name="collapsed" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@propertyMap.2"/>
+      <properties name="collapseFirst" value="true" type="BOOLEAN" entry="//@rootContainer/@children.0/@propertyMap.3"/>
+      <properties name="border" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@propertyMap.4"/>
+      <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.0/@propertyMap.5"/>
+      <properties name="margins" value="" entry="//@rootContainer/@children.0/@propertyMap.6"/>
+      <properties name="layout" value="xcp_columnbox" entry="//@rootContainer/@children.0/@propertyMap.7"/>
+      <properties name="hidden" value="" entry="//@rootContainer/@children.0/@propertyMap.8"/>
+      <properties name="cls" value="" entry="//@rootContainer/@children.0/@propertyMap.9"/>
+      <properties name="xcpId" value="column_box" entry="//@rootContainer/@children.0/@propertyMap.10"/>
+      <propertyMap key="title" value="//@rootContainer/@children.0/@properties.0"/>
+      <propertyMap key="collapsible" value="//@rootContainer/@children.0/@properties.1"/>
+      <propertyMap key="collapsed" value="//@rootContainer/@children.0/@properties.2"/>
+      <propertyMap key="collapseFirst" value="//@rootContainer/@children.0/@properties.3"/>
+      <propertyMap key="border" value="//@rootContainer/@children.0/@properties.4"/>
+      <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@properties.5"/>
+      <propertyMap key="margins" value="//@rootContainer/@children.0/@properties.6"/>
+      <propertyMap key="layout" value="//@rootContainer/@children.0/@properties.7"/>
+      <propertyMap key="hidden" value="//@rootContainer/@children.0/@properties.8"/>
+      <propertyMap key="cls" value="//@rootContainer/@children.0/@properties.9"/>
+      <propertyMap key="xcpId" value="//@rootContainer/@children.0/@properties.10"/>
+      <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_columnvbox" parent="//@rootContainer/@children.0" widgetEntry="//@widgetMap[key='columnvbox']">
+        <properties name="orientation" value="Vertical" entry="//@rootContainer/@children.0/@children.0/@propertyMap.0"/>
+        <properties name="width" value="" entry="//@rootContainer/@children.0/@children.0/@propertyMap.1"/>
+        <properties name="minWidth" value="" type="INTEGER" entry="//@rootContainer/@children.0/@children.0/@propertyMap.2"/>
+        <properties name="split" value="" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.0/@propertyMap.3"/>
+        <properties name="overflow_x" value="hidden" entry="//@rootContainer/@children.0/@children.0/@propertyMap.4"/>
+        <properties name="labelWidth" value="150" type="INTEGER" entry="//@rootContainer/@children.0/@children.0/@propertyMap.5"/>
+        <properties name="labelAlign" value="left" entry="//@rootContainer/@children.0/@children.0/@propertyMap.6"/>
+        <properties name="halign" value="left" entry="//@rootContainer/@children.0/@children.0/@propertyMap.7"/>
+        <properties name="valign" value="top" entry="//@rootContainer/@children.0/@children.0/@propertyMap.8"/>
+        <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.0/@children.0/@propertyMap.9"/>
+        <properties name="margins" value="" entry="//@rootContainer/@children.0/@children.0/@propertyMap.10"/>
+        <properties name="xcpId" value="columnvbox" entry="//@rootContainer/@children.0/@children.0/@propertyMap.11"/>
+        <propertyMap key="orientation" value="//@rootContainer/@children.0/@children.0/@properties.0"/>
+        <propertyMap key="width" value="//@rootContainer/@children.0/@children.0/@properties.1"/>
+        <propertyMap key="minWidth" value="//@rootContainer/@children.0/@children.0/@properties.2"/>
+        <propertyMap key="split" value="//@rootContainer/@children.0/@children.0/@properties.3"/>
+        <propertyMap key="overflow_x" value="//@rootContainer/@children.0/@children.0/@properties.4"/>
+        <propertyMap key="labelWidth" value="//@rootContainer/@children.0/@children.0/@properties.5"/>
+        <propertyMap key="labelAlign" value="//@rootContainer/@children.0/@children.0/@properties.6"/>
+        <propertyMap key="halign" value="//@rootContainer/@children.0/@children.0/@properties.7"/>
+        <propertyMap key="valign" value="//@rootContainer/@children.0/@children.0/@properties.8"/>
+        <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@children.0/@properties.9"/>
+        <propertyMap key="margins" value="//@rootContainer/@children.0/@children.0/@properties.10"/>
+        <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.0/@properties.11"/>
+      </children>
+      <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_columnvbox" parent="//@rootContainer/@children.0" widgetEntry="//@widgetMap[key='columnvbox1']">
+        <properties name="orientation" value="Vertical" entry="//@rootContainer/@children.0/@children.1/@propertyMap.0"/>
+        <properties name="width" value="500" entry="//@rootContainer/@children.0/@children.1/@propertyMap.1"/>
+        <properties name="minWidth" value="" type="INTEGER" entry="//@rootContainer/@children.0/@children.1/@propertyMap.2"/>
+        <properties name="split" value="" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@propertyMap.3"/>
+        <properties name="overflow_x" value="hidden" entry="//@rootContainer/@children.0/@children.1/@propertyMap.4"/>
+        <properties name="labelWidth" value="150" type="INTEGER" entry="//@rootContainer/@children.0/@children.1/@propertyMap.5"/>
+        <properties name="labelAlign" value="left" entry="//@rootContainer/@children.0/@children.1/@propertyMap.6"/>
+        <properties name="halign" value="left" entry="//@rootContainer/@children.0/@children.1/@propertyMap.7"/>
+        <properties name="valign" value="top" entry="//@rootContainer/@children.0/@children.1/@propertyMap.8"/>
+        <properties name="defaultMargins" value="50 0 5 5" entry="//@rootContainer/@children.0/@children.1/@propertyMap.9"/>
+        <properties name="margins" value="" entry="//@rootContainer/@children.0/@children.1/@propertyMap.10"/>
+        <properties name="xcpId" value="columnvbox1" entry="//@rootContainer/@children.0/@children.1/@propertyMap.11"/>
+        <propertyMap key="orientation" value="//@rootContainer/@children.0/@children.1/@properties.0"/>
+        <propertyMap key="width" value="//@rootContainer/@children.0/@children.1/@properties.1"/>
+        <propertyMap key="minWidth" value="//@rootContainer/@children.0/@children.1/@properties.2"/>
+        <propertyMap key="split" value="//@rootContainer/@children.0/@children.1/@properties.3"/>
+        <propertyMap key="overflow_x" value="//@rootContainer/@children.0/@children.1/@properties.4"/>
+        <propertyMap key="labelWidth" value="//@rootContainer/@children.0/@children.1/@properties.5"/>
+        <propertyMap key="labelAlign" value="//@rootContainer/@children.0/@children.1/@properties.6"/>
+        <propertyMap key="halign" value="//@rootContainer/@children.0/@children.1/@properties.7"/>
+        <propertyMap key="valign" value="//@rootContainer/@children.0/@children.1/@properties.8"/>
+        <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@children.1/@properties.9"/>
+        <propertyMap key="margins" value="//@rootContainer/@children.0/@children.1/@properties.10"/>
+        <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.1/@properties.11"/>
+        <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_column_box" parent="//@rootContainer/@children.0/@children.1" widgetEntry="//@widgetMap[key='column_box1']">
+          <properties name="title" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@propertyMap.0"/>
+          <properties name="collapsible" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@propertyMap.1"/>
+          <properties name="collapsed" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@propertyMap.2"/>
+          <properties name="collapseFirst" value="true" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@propertyMap.3"/>
+          <properties name="border" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@propertyMap.4"/>
+          <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.0/@children.1/@children.0/@propertyMap.5"/>
+          <properties name="margins" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@propertyMap.6"/>
+          <properties name="layout" value="xcp_columnbox" entry="//@rootContainer/@children.0/@children.1/@children.0/@propertyMap.7"/>
+          <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@propertyMap.8"/>
+          <properties name="cls" value="x-window-default" entry="//@rootContainer/@children.0/@children.1/@children.0/@propertyMap.9"/>
+          <properties name="xcpId" value="column_box1" entry="//@rootContainer/@children.0/@children.1/@children.0/@propertyMap.10"/>
+          <propertyMap key="title" value="//@rootContainer/@children.0/@children.1/@children.0/@properties.0"/>
+          <propertyMap key="collapsible" value="//@rootContainer/@children.0/@children.1/@children.0/@properties.1"/>
+          <propertyMap key="collapsed" value="//@rootContainer/@children.0/@children.1/@children.0/@properties.2"/>
+          <propertyMap key="collapseFirst" value="//@rootContainer/@children.0/@children.1/@children.0/@properties.3"/>
+          <propertyMap key="border" value="//@rootContainer/@children.0/@children.1/@children.0/@properties.4"/>
+          <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@children.1/@children.0/@properties.5"/>
+          <propertyMap key="margins" value="//@rootContainer/@children.0/@children.1/@children.0/@properties.6"/>
+          <propertyMap key="layout" value="//@rootContainer/@children.0/@children.1/@children.0/@properties.7"/>
+          <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.1/@children.0/@properties.8"/>
+          <propertyMap key="cls" value="//@rootContainer/@children.0/@children.1/@children.0/@properties.9"/>
+          <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.1/@children.0/@properties.10"/>
+          <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_columnvbox" parent="//@rootContainer/@children.0/@children.1/@children.0" widgetEntry="//@widgetMap[key='columnvbox3']">
+            <properties name="orientation" value="Vertical" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@propertyMap.0"/>
+            <properties name="width" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@propertyMap.1"/>
+            <properties name="minWidth" value="" type="INTEGER" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@propertyMap.2"/>
+            <properties name="split" value="" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@propertyMap.3"/>
+            <properties name="overflow_x" value="hidden" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@propertyMap.4"/>
+            <properties name="labelWidth" value="150" type="INTEGER" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@propertyMap.5"/>
+            <properties name="labelAlign" value="left" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@propertyMap.6"/>
+            <properties name="halign" value="left" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@propertyMap.7"/>
+            <properties name="valign" value="top" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@propertyMap.8"/>
+            <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@propertyMap.9"/>
+            <properties name="margins" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@propertyMap.10"/>
+            <properties name="xcpId" value="columnvbox3" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@propertyMap.11"/>
+            <propertyMap key="orientation" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@properties.0"/>
+            <propertyMap key="width" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@properties.1"/>
+            <propertyMap key="minWidth" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@properties.2"/>
+            <propertyMap key="split" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@properties.3"/>
+            <propertyMap key="overflow_x" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@properties.4"/>
+            <propertyMap key="labelWidth" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@properties.5"/>
+            <propertyMap key="labelAlign" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@properties.6"/>
+            <propertyMap key="halign" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@properties.7"/>
+            <propertyMap key="valign" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@properties.8"/>
+            <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@properties.9"/>
+            <propertyMap key="margins" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@properties.10"/>
+            <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@properties.11"/>
+            <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_column_box" parent="//@rootContainer/@children.0/@children.1/@children.0/@children.0" widgetEntry="//@widgetMap[key='column_box2']">
+              <properties name="title" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@propertyMap.0"/>
+              <properties name="collapsible" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@propertyMap.1"/>
+              <properties name="collapsed" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@propertyMap.2"/>
+              <properties name="collapseFirst" value="true" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@propertyMap.3"/>
+              <properties name="border" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@propertyMap.4"/>
+              <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@propertyMap.5"/>
+              <properties name="margins" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@propertyMap.6"/>
+              <properties name="layout" value="xcp_columnbox" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@propertyMap.7"/>
+              <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@propertyMap.8"/>
+              <properties name="cls" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@propertyMap.9"/>
+              <properties name="xcpId" value="column_box2" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@propertyMap.10"/>
+              <propertyMap key="title" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@properties.0"/>
+              <propertyMap key="collapsible" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@properties.1"/>
+              <propertyMap key="collapsed" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@properties.2"/>
+              <propertyMap key="collapseFirst" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@properties.3"/>
+              <propertyMap key="border" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@properties.4"/>
+              <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@properties.5"/>
+              <propertyMap key="margins" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@properties.6"/>
+              <propertyMap key="layout" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@properties.7"/>
+              <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@properties.8"/>
+              <propertyMap key="cls" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@properties.9"/>
+              <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@properties.10"/>
+              <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_columnvbox" parent="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0" widgetEntry="//@widgetMap[key='columnvbox4']">
+                <properties name="orientation" value="Vertical" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@propertyMap.0"/>
+                <properties name="width" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@propertyMap.1"/>
+                <properties name="minWidth" value="" type="INTEGER" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@propertyMap.2"/>
+                <properties name="split" value="" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@propertyMap.3"/>
+                <properties name="overflow_x" value="hidden" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@propertyMap.4"/>
+                <properties name="labelWidth" value="150" type="INTEGER" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@propertyMap.5"/>
+                <properties name="labelAlign" value="left" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@propertyMap.6"/>
+                <properties name="halign" value="left" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@propertyMap.7"/>
+                <properties name="valign" value="top" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@propertyMap.8"/>
+                <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@propertyMap.9"/>
+                <properties name="margins" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@propertyMap.10"/>
+                <properties name="xcpId" value="columnvbox4" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@propertyMap.11"/>
+                <propertyMap key="orientation" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@properties.0"/>
+                <propertyMap key="width" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@properties.1"/>
+                <propertyMap key="minWidth" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@properties.2"/>
+                <propertyMap key="split" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@properties.3"/>
+                <propertyMap key="overflow_x" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@properties.4"/>
+                <propertyMap key="labelWidth" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@properties.5"/>
+                <propertyMap key="labelAlign" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@properties.6"/>
+                <propertyMap key="halign" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@properties.7"/>
+                <propertyMap key="valign" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@properties.8"/>
+                <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@properties.9"/>
+                <propertyMap key="margins" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@properties.10"/>
+                <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@properties.11"/>
+                <children componentDefinitionId="xcp_rich_text" parent="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0" widgetEntry="//@widgetMap[key='header']">
+                  <properties name="html" value="&lt;span class='x-window-header-text-default'>The page you requested was not found.&lt;/span>" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.0"/>
+                  <properties name="cls" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.1"/>
+                  <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.2"/>
+                  <properties name="mandatory" value="false" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.3"/>
+                  <properties name="hideErrorInToolTip" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.4"/>
+                  <properties name="stopOnValidationFail" value="true" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.5"/>
+                  <properties name="valid" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.6"/>
+                  <properties name="xcpId" value="header" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.7"/>
+                  <propertyMap key="html" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.0"/>
+                  <propertyMap key="cls" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.1"/>
+                  <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.2"/>
+                  <propertyMap key="mandatory" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.3"/>
+                  <propertyMap key="hideErrorInToolTip" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.4"/>
+                  <propertyMap key="stopOnValidationFail" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.5"/>
+                  <propertyMap key="valid" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.6"/>
+                  <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.7"/>
+                </children>
+                <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_column_box" parent="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0" widgetEntry="//@widgetMap[key='column_box3']">
+                  <properties name="title" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.0"/>
+                  <properties name="collapsible" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.1"/>
+                  <properties name="collapsed" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.2"/>
+                  <properties name="collapseFirst" value="true" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.3"/>
+                  <properties name="border" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.4"/>
+                  <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.5"/>
+                  <properties name="margins" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.6"/>
+                  <properties name="layout" value="xcp_columnbox" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.7"/>
+                  <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.8"/>
+                  <properties name="cls" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.9"/>
+                  <properties name="xcpId" value="column_box3" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.10"/>
+                  <propertyMap key="title" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.0"/>
+                  <propertyMap key="collapsible" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.1"/>
+                  <propertyMap key="collapsed" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.2"/>
+                  <propertyMap key="collapseFirst" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.3"/>
+                  <propertyMap key="border" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.4"/>
+                  <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.5"/>
+                  <propertyMap key="margins" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.6"/>
+                  <propertyMap key="layout" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.7"/>
+                  <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.8"/>
+                  <propertyMap key="cls" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.9"/>
+                  <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.10"/>
+                  <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_columnvbox" parent="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1" widgetEntry="//@widgetMap[key='columnvbox5']">
+                    <properties name="orientation" value="Vertical" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@propertyMap.0"/>
+                    <properties name="width" value="37" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@propertyMap.1"/>
+                    <properties name="minWidth" value="" type="INTEGER" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@propertyMap.2"/>
+                    <properties name="split" value="" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@propertyMap.3"/>
+                    <properties name="overflow_x" value="hidden" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@propertyMap.4"/>
+                    <properties name="labelWidth" value="150" type="INTEGER" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@propertyMap.5"/>
+                    <properties name="labelAlign" value="left" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@propertyMap.6"/>
+                    <properties name="halign" value="left" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@propertyMap.7"/>
+                    <properties name="valign" value="top" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@propertyMap.8"/>
+                    <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@propertyMap.9"/>
+                    <properties name="margins" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@propertyMap.10"/>
+                    <properties name="xcpId" value="columnvbox5" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@propertyMap.11"/>
+                    <propertyMap key="orientation" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@properties.0"/>
+                    <propertyMap key="width" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@properties.1"/>
+                    <propertyMap key="minWidth" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@properties.2"/>
+                    <propertyMap key="split" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@properties.3"/>
+                    <propertyMap key="overflow_x" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@properties.4"/>
+                    <propertyMap key="labelWidth" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@properties.5"/>
+                    <propertyMap key="labelAlign" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@properties.6"/>
+                    <propertyMap key="halign" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@properties.7"/>
+                    <propertyMap key="valign" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@properties.8"/>
+                    <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@properties.9"/>
+                    <propertyMap key="margins" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@properties.10"/>
+                    <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@properties.11"/>
+                    <children componentDefinitionId="xcp_image" parent="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0" widgetEntry="//@widgetMap[key='warning_icon']">
+                      <properties name="alternateText" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.0"/>
+                      <properties name="imageSource" value="urn:xcpcomm:com.emc.xcp.artifact.resource.image:Artifacts/Resources/error_32.png" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.1"/>
+                      <properties name="tooltip" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.2"/>
+                      <properties xsi:type="uitemplate:DataboundProperty" name="internalURL" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.3"/>
+                      <properties name="externalURL" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.4"/>
+                      <properties name="behavior" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.5"/>
+                      <properties name="width" value="" type="INTEGER" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.6"/>
+                      <properties name="height" value="" type="INTEGER" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.7"/>
+                      <properties name="disabled" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.8"/>
+                      <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.9"/>
+                      <properties name="isInternal" value="true" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.10"/>
+                      <properties name="redirectStyle" value="specified" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.11"/>
+                      <properties name="redirectUrlModel" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.12"/>
+                      <properties name="cls" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.13"/>
+                      <properties name="xcpId" value="warning_icon" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@propertyMap.14"/>
+                      <propertyMap key="alternateText" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.0"/>
+                      <propertyMap key="imageSource" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.1"/>
+                      <propertyMap key="tooltip" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.2"/>
+                      <propertyMap key="internalURL" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.3"/>
+                      <propertyMap key="externalURL" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.4"/>
+                      <propertyMap key="behavior" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.5"/>
+                      <propertyMap key="width" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.6"/>
+                      <propertyMap key="height" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.7"/>
+                      <propertyMap key="disabled" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.8"/>
+                      <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.9"/>
+                      <propertyMap key="isInternal" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.10"/>
+                      <propertyMap key="redirectStyle" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.11"/>
+                      <propertyMap key="redirectUrlModel" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.12"/>
+                      <propertyMap key="cls" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.13"/>
+                      <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0/@properties.14"/>
+                    </children>
+                  </children>
+                  <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_columnvbox" parent="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1" widgetEntry="//@widgetMap[key='columnvbox6']">
+                    <properties name="orientation" value="Vertical" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@propertyMap.0"/>
+                    <properties name="width" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@propertyMap.1"/>
+                    <properties name="minWidth" value="" type="INTEGER" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@propertyMap.2"/>
+                    <properties name="split" value="" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@propertyMap.3"/>
+                    <properties name="overflow_x" value="hidden" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@propertyMap.4"/>
+                    <properties name="labelWidth" value="150" type="INTEGER" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@propertyMap.5"/>
+                    <properties name="labelAlign" value="left" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@propertyMap.6"/>
+                    <properties name="halign" value="left" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@propertyMap.7"/>
+                    <properties name="valign" value="top" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@propertyMap.8"/>
+                    <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@propertyMap.9"/>
+                    <properties name="margins" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@propertyMap.10"/>
+                    <properties name="xcpId" value="columnvbox6" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@propertyMap.11"/>
+                    <propertyMap key="orientation" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@properties.0"/>
+                    <propertyMap key="width" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@properties.1"/>
+                    <propertyMap key="minWidth" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@properties.2"/>
+                    <propertyMap key="split" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@properties.3"/>
+                    <propertyMap key="overflow_x" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@properties.4"/>
+                    <propertyMap key="labelWidth" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@properties.5"/>
+                    <propertyMap key="labelAlign" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@properties.6"/>
+                    <propertyMap key="halign" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@properties.7"/>
+                    <propertyMap key="valign" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@properties.8"/>
+                    <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@properties.9"/>
+                    <propertyMap key="margins" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@properties.10"/>
+                    <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@properties.11"/>
+                    <children componentDefinitionId="xcp_rich_text" parent="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1" widgetEntry="//@widgetMap[key='information']">
+                      <properties name="html" value="This page either does not exist, or you do not have permissions to view it." entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@propertyMap.0"/>
+                      <properties name="cls" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@propertyMap.1"/>
+                      <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@propertyMap.2"/>
+                      <properties name="mandatory" value="false" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@propertyMap.3"/>
+                      <properties name="hideErrorInToolTip" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@propertyMap.4"/>
+                      <properties name="stopOnValidationFail" value="true" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@propertyMap.5"/>
+                      <properties name="valid" value="" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@propertyMap.6"/>
+                      <properties name="xcpId" value="information" entry="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@propertyMap.7"/>
+                      <propertyMap key="html" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@properties.0"/>
+                      <propertyMap key="cls" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@properties.1"/>
+                      <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@properties.2"/>
+                      <propertyMap key="mandatory" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@properties.3"/>
+                      <propertyMap key="hideErrorInToolTip" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@properties.4"/>
+                      <propertyMap key="stopOnValidationFail" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@properties.5"/>
+                      <propertyMap key="valid" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@properties.6"/>
+                      <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0/@properties.7"/>
+                    </children>
+                  </children>
+                </children>
+              </children>
+            </children>
+          </children>
+        </children>
+        <children componentDefinitionId="xcp_rich_text" parent="//@rootContainer/@children.0/@children.1" widgetEntry="//@widgetMap[key='rich_text']">
+          <properties name="html" value="" entry="//@rootContainer/@children.0/@children.1/@children.1/@propertyMap.0"/>
+          <properties name="cls" value="" entry="//@rootContainer/@children.0/@children.1/@children.1/@propertyMap.1"/>
+          <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.1/@children.1/@propertyMap.2"/>
+          <properties name="mandatory" value="false" entry="//@rootContainer/@children.0/@children.1/@children.1/@propertyMap.3"/>
+          <properties name="hideErrorInToolTip" value="false" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.1/@propertyMap.4"/>
+          <properties name="stopOnValidationFail" value="true" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.1/@children.1/@propertyMap.5"/>
+          <properties name="valid" value="" entry="//@rootContainer/@children.0/@children.1/@children.1/@propertyMap.6"/>
+          <properties name="xcpId" value="rich_text" entry="//@rootContainer/@children.0/@children.1/@children.1/@propertyMap.7"/>
+          <propertyMap key="html" value="//@rootContainer/@children.0/@children.1/@children.1/@properties.0"/>
+          <propertyMap key="cls" value="//@rootContainer/@children.0/@children.1/@children.1/@properties.1"/>
+          <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.1/@children.1/@properties.2"/>
+          <propertyMap key="mandatory" value="//@rootContainer/@children.0/@children.1/@children.1/@properties.3"/>
+          <propertyMap key="hideErrorInToolTip" value="//@rootContainer/@children.0/@children.1/@children.1/@properties.4"/>
+          <propertyMap key="stopOnValidationFail" value="//@rootContainer/@children.0/@children.1/@children.1/@properties.5"/>
+          <propertyMap key="valid" value="//@rootContainer/@children.0/@children.1/@children.1/@properties.6"/>
+          <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.1/@children.1/@properties.7"/>
+        </children>
+      </children>
+      <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_columnvbox" parent="//@rootContainer/@children.0" widgetEntry="//@widgetMap[key='columnvbox2']">
+        <properties name="orientation" value="Vertical" entry="//@rootContainer/@children.0/@children.2/@propertyMap.0"/>
+        <properties name="width" value="" entry="//@rootContainer/@children.0/@children.2/@propertyMap.1"/>
+        <properties name="minWidth" value="" type="INTEGER" entry="//@rootContainer/@children.0/@children.2/@propertyMap.2"/>
+        <properties name="split" value="" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.2/@propertyMap.3"/>
+        <properties name="overflow_x" value="hidden" entry="//@rootContainer/@children.0/@children.2/@propertyMap.4"/>
+        <properties name="labelWidth" value="150" type="INTEGER" entry="//@rootContainer/@children.0/@children.2/@propertyMap.5"/>
+        <properties name="labelAlign" value="left" entry="//@rootContainer/@children.0/@children.2/@propertyMap.6"/>
+        <properties name="halign" value="left" entry="//@rootContainer/@children.0/@children.2/@propertyMap.7"/>
+        <properties name="valign" value="top" entry="//@rootContainer/@children.0/@children.2/@propertyMap.8"/>
+        <properties name="defaultMargins" value="5" entry="//@rootContainer/@children.0/@children.2/@propertyMap.9"/>
+        <properties name="margins" value="" entry="//@rootContainer/@children.0/@children.2/@propertyMap.10"/>
+        <properties name="xcpId" value="columnvbox2" entry="//@rootContainer/@children.0/@children.2/@propertyMap.11"/>
+        <propertyMap key="orientation" value="//@rootContainer/@children.0/@children.2/@properties.0"/>
+        <propertyMap key="width" value="//@rootContainer/@children.0/@children.2/@properties.1"/>
+        <propertyMap key="minWidth" value="//@rootContainer/@children.0/@children.2/@properties.2"/>
+        <propertyMap key="split" value="//@rootContainer/@children.0/@children.2/@properties.3"/>
+        <propertyMap key="overflow_x" value="//@rootContainer/@children.0/@children.2/@properties.4"/>
+        <propertyMap key="labelWidth" value="//@rootContainer/@children.0/@children.2/@properties.5"/>
+        <propertyMap key="labelAlign" value="//@rootContainer/@children.0/@children.2/@properties.6"/>
+        <propertyMap key="halign" value="//@rootContainer/@children.0/@children.2/@properties.7"/>
+        <propertyMap key="valign" value="//@rootContainer/@children.0/@children.2/@properties.8"/>
+        <propertyMap key="defaultMargins" value="//@rootContainer/@children.0/@children.2/@properties.9"/>
+        <propertyMap key="margins" value="//@rootContainer/@children.0/@children.2/@properties.10"/>
+        <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.2/@properties.11"/>
+      </children>
+    </children>
+  </rootContainer>
+  <widgetMap key="root" value="//@rootContainer"/>
+  <widgetMap key="column_box" value="//@rootContainer/@children.0"/>
+  <widgetMap key="columnvbox" value="//@rootContainer/@children.0/@children.0"/>
+  <widgetMap key="columnvbox1" value="//@rootContainer/@children.0/@children.1"/>
+  <widgetMap key="columnvbox2" value="//@rootContainer/@children.0/@children.2"/>
+  <widgetMap key="column_box1" value="//@rootContainer/@children.0/@children.1/@children.0"/>
+  <widgetMap key="columnvbox3" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0"/>
+  <widgetMap key="column_box2" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0"/>
+  <widgetMap key="columnvbox4" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0"/>
+  <widgetMap key="header" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.0"/>
+  <widgetMap key="column_box3" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1"/>
+  <widgetMap key="columnvbox5" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0"/>
+  <widgetMap key="warning_icon" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.0/@children.0"/>
+  <widgetMap key="columnvbox6" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1"/>
+  <widgetMap key="information" value="//@rootContainer/@children.0/@children.1/@children.0/@children.0/@children.0/@children.0/@children.1/@children.1/@children.0"/>
+  <widgetMap key="rich_text" value="//@rootContainer/@children.0/@children.1/@children.1"/>
+</uitemplate:Page>

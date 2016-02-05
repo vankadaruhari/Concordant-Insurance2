@@ -1,0 +1,4 @@
+ENABLED_DECORATORS=org.eclipse.m2e.core.mavenVersionDecorator\:false,com.emc.xcp.workspace.ArtifactProjectDecorator\:true,org.eclipse.jdt.ui.override.decorator\:true,org.eclipse.jdt.ui.interface.decorator\:false,org.eclipse.jdt.ui.buildpath.decorator\:true,org.eclipse.m2e.core.maven2decorator\:true,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.SymlinkDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
+UIActivities.com.emc.xcp.builder.application.ui.excludeConvertProjectToFacetedForm=true
+eclipse.preferences.version=1
