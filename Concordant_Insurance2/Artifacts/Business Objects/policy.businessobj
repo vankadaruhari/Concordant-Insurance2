@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nsDatatypes:BusinessObject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nsAttributeDatatypes="http://xcp.emc.com/attribute_datatypes" xmlns:nsDataserviceContract="http://xcp.emc.com/DataserviceContract" xmlns:nsDatatypes="http://xcp.emc.com/datatypes" urn="urn:ci2:com.emc.xcp.artifact.bo:Artifacts/Business Objects/policy.businessobj" categoryId="com.emc.xcp.artifact.bo" name="policy" label="Policy">
+  <attributes name="first_name" label="First Name">
+    <type xsi:type="nsAttributeDatatypes:StringType" length="64"/>
+  </attributes>
+  <attributes name="last_name" label="Last Name">
+    <type xsi:type="nsAttributeDatatypes:StringType" length="64"/>
+  </attributes>
+  <attributes name="new_string" label="Address">
+    <type xsi:type="nsAttributeDatatypes:StringType" length="64"/>
+  </attributes>
+  <attributes name="coverage" label="Coverage">
+    <type xsi:type="nsAttributeDatatypes:FloatType"/>
+  </attributes>
+  <attributes name="end_date" label="End Date">
+    <type xsi:type="nsAttributeDatatypes:DateTimeType"/>
+  </attributes>
+  <accessControlPolicy inheritedFromParentFolder="true"/>
+  <defaultFolderPath/>
+  <dataActionContracts categoryId="com.emc.xcp.artifact.dataservice.dataactioncontract" name="da_def_create_policy" label="Create Policy" implCategoryId="com.emc.xcp.artifact.bo">
+    <inputs xsi:type="nsDataserviceContract:AttributeElement" name="new_string" label="Address">
+      <attributeType xsi:type="nsAttributeDatatypes:StringType"/>
+    </inputs>
+    <inputs xsi:type="nsDataserviceContract:AttributeElement" name="coverage" label="Coverage">
+      <attributeType xsi:type="nsAttributeDatatypes:FloatType"/>
+    </inputs>
+    <inputs xsi:type="nsDataserviceContract:AttributeElement" name="end_date" label="End Date">
+      <attributeType xsi:type="nsAttributeDatatypes:DateTimeType"/>
+    </inputs>
+    <inputs xsi:type="nsDataserviceContract:AttributeElement" name="first_name" label="First Name">
+      <attributeType xsi:type="nsAttributeDatatypes:StringType"/>
+    </inputs>
+    <inputs xsi:type="nsDataserviceContract:AttributeElement" name="last_name" label="Last Name">
+      <attributeType xsi:type="nsAttributeDatatypes:StringType"/>
+    </inputs>
+    <primaryElement dataModel="/"/>
+    <actionType type="Create"/>
+  </dataActionContracts>
+  <dataActionContracts categoryId="com.emc.xcp.artifact.dataservice.dataactioncontract" name="da_def_update_policy" label="Update Policy" implCategoryId="com.emc.xcp.artifact.bo">
+    <inputs xsi:type="nsDataserviceContract:AttributeElement" name="new_string" label="Address">
+      <attributeType xsi:type="nsAttributeDatatypes:StringType"/>
+    </inputs>
+    <inputs xsi:type="nsDataserviceContract:AttributeElement" name="coverage" label="Coverage">
+      <attributeType xsi:type="nsAttributeDatatypes:FloatType"/>
+    </inputs>
+    <inputs xsi:type="nsDataserviceContract:AttributeElement" name="end_date" label="End Date">
+      <attributeType xsi:type="nsAttributeDatatypes:DateTimeType"/>
+    </inputs>
+    <inputs xsi:type="nsDataserviceContract:AttributeElement" name="first_name" label="First Name">
+      <attributeType xsi:type="nsAttributeDatatypes:StringType"/>
+    </inputs>
+    <inputs xsi:type="nsDataserviceContract:AttributeElement" name="last_name" label="Last Name">
+      <attributeType xsi:type="nsAttributeDatatypes:StringType"/>
+    </inputs>
+    <primaryElement dataModel="/"/>
+    <actionType type="Update"/>
+  </dataActionContracts>
+  <dataActionContracts categoryId="com.emc.xcp.artifact.dataservice.dataactioncontract" name="da_def_delete_policy" label="Delete Policy" implCategoryId="com.emc.xcp.artifact.bo">
+    <primaryElement dataModel="/"/>
+    <actionType type="Delete"/>
+  </dataActionContracts>
+  <superType xsi:type="nsDatatypes:BusinessObject" href="urn:xcp:com.emc.xcp.artifact.bo:Artifacts/Business Objects/rootbo.businessobj#/"/>
+</nsDatatypes:BusinessObject>
