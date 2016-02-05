@@ -77,33 +77,95 @@
           <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.9"/>
           <propertyMap key="cls" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.10"/>
           <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.11"/>
-          <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_nav_button" parent="//@rootContainer/@children.0/@children.0/@children.0" widgetEntry="//@widgetMap[key='nav_button']">
-            <properties name="text" value="Menu Item 1" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.0"/>
+          <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_nav_button" parent="//@rootContainer/@children.0/@children.0/@children.0" widgetEntry="//@widgetMap[key='policies']">
+            <properties name="text" value="Policies" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.0"/>
             <properties name="iconCls" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.1"/>
             <properties name="xcp_menu_onhover" value="" type="BOOLEAN" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.2"/>
             <properties name="xcp_nav_type" value="page" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.3"/>
             <properties name="xcp_link_type" value="none" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.4"/>
             <properties name="xcp_page_sel_type" value="page" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.5"/>
-            <properties xsi:type="uitemplate:DataboundProperty" name="xcp_nav_url" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.6"/>
-            <properties name="redirectPageUrlName" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.7"/>
-            <properties name="redirectObjectId" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.8"/>
-            <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.9"/>
-            <properties name="disabled" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.10"/>
-            <properties name="cls" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.11"/>
-            <properties name="xcpId" value="nav_button" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.12"/>
+            <properties name="redirectPageUrlName" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.6"/>
+            <properties name="redirectObjectId" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.7"/>
+            <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.8"/>
+            <properties name="disabled" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.9"/>
+            <properties name="cls" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.10"/>
+            <properties name="xcpId" value="policies" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.11"/>
             <propertyMap key="text" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.0"/>
             <propertyMap key="iconCls" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.1"/>
             <propertyMap key="xcp_menu_onhover" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.2"/>
             <propertyMap key="xcp_nav_type" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.3"/>
             <propertyMap key="xcp_link_type" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.4"/>
             <propertyMap key="xcp_page_sel_type" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.5"/>
-            <propertyMap key="xcp_nav_url" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.6"/>
-            <propertyMap key="redirectPageUrlName" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.7"/>
-            <propertyMap key="redirectObjectId" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.8"/>
-            <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.9"/>
-            <propertyMap key="disabled" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.10"/>
-            <propertyMap key="cls" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.11"/>
-            <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.12"/>
+            <propertyMap key="redirectPageUrlName" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.6"/>
+            <propertyMap key="redirectObjectId" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.7"/>
+            <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.8"/>
+            <propertyMap key="disabled" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.9"/>
+            <propertyMap key="cls" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.10"/>
+            <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@properties.11"/>
+            <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_menu" parent="//@rootContainer/@children.0/@children.0/@children.0/@children.0" widgetEntry="//@widgetMap[key='menu']">
+              <properties name="xcpId" value="menu" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.0"/>
+              <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.0"/>
+              <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_nav_menuitem" parent="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0" widgetEntry="//@widgetMap[key='new_policy']">
+                <properties name="text" value="New Policy" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.0"/>
+                <properties name="iconCls" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.1"/>
+                <properties name="xcp_nav_type" value="page" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.2"/>
+                <properties name="xcp_link_type" value="application" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.3"/>
+                <properties name="xcp_page_sel_type" value="page" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.4"/>
+                <properties name="redirectPageUrlName" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.5"/>
+                <properties name="redirectObjectId" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.6"/>
+                <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.7"/>
+                <properties name="disabled" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.8"/>
+                <properties name="cls" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.9"/>
+                <properties name="xcpId" value="new_policy" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.10"/>
+                <properties xsi:type="uitemplate:DataboundProperty" name="xcp_nav_url" value="ci2_policy/ci2_create_policy" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@propertyMap.11">
+                  <data selectionName="create_policy" selectionLabel="Create Policy">
+                    <dataRef href="urn:ci2:com.emc.xcp.artifact.page:Artifacts/Pages/create_policy.page#/"/>
+                  </data>
+                </properties>
+                <propertyMap key="text" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.0"/>
+                <propertyMap key="iconCls" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.1"/>
+                <propertyMap key="xcp_nav_type" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.2"/>
+                <propertyMap key="xcp_link_type" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.3"/>
+                <propertyMap key="xcp_page_sel_type" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.4"/>
+                <propertyMap key="redirectPageUrlName" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.5"/>
+                <propertyMap key="redirectObjectId" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.6"/>
+                <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.7"/>
+                <propertyMap key="disabled" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.8"/>
+                <propertyMap key="cls" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.9"/>
+                <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.10"/>
+                <propertyMap key="xcp_nav_url" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0/@properties.11"/>
+              </children>
+              <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_nav_menuitem" parent="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0" widgetEntry="//@widgetMap[key='search']">
+                <properties name="text" value="Search" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.0"/>
+                <properties name="iconCls" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.1"/>
+                <properties name="xcp_nav_type" value="page" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.2"/>
+                <properties name="xcp_link_type" value="application" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.3"/>
+                <properties name="xcp_page_sel_type" value="page" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.4"/>
+                <properties name="redirectPageUrlName" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.5"/>
+                <properties name="redirectObjectId" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.6"/>
+                <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.7"/>
+                <properties name="disabled" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.8"/>
+                <properties name="cls" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.9"/>
+                <properties name="xcpId" value="search" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.10"/>
+                <properties xsi:type="uitemplate:DataboundProperty" name="xcp_nav_url" value="application/ci2_policy_search" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@propertyMap.11">
+                  <data selectionName="policy_search" selectionLabel="Policy Search">
+                    <dataRef href="urn:ci2:com.emc.xcp.artifact.page:Artifacts/Pages/policy_search.page#/"/>
+                  </data>
+                </properties>
+                <propertyMap key="text" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.0"/>
+                <propertyMap key="iconCls" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.1"/>
+                <propertyMap key="xcp_nav_type" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.2"/>
+                <propertyMap key="xcp_link_type" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.3"/>
+                <propertyMap key="xcp_page_sel_type" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.4"/>
+                <propertyMap key="redirectPageUrlName" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.5"/>
+                <propertyMap key="redirectObjectId" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.6"/>
+                <propertyMap key="hidden" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.7"/>
+                <propertyMap key="disabled" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.8"/>
+                <propertyMap key="cls" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.9"/>
+                <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.10"/>
+                <propertyMap key="xcp_nav_url" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1/@properties.11"/>
+              </children>
+            </children>
           </children>
           <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_nav_button" parent="//@rootContainer/@children.0/@children.0/@children.0" widgetEntry="//@widgetMap[key='nav_button1']">
             <properties name="text" value="Menu Item 2" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.1/@propertyMap.0"/>
@@ -187,9 +249,12 @@
   <widgetMap key="column_box" value="//@rootContainer/@children.0"/>
   <widgetMap key="columnhbox" value="//@rootContainer/@children.0/@children.0"/>
   <widgetMap key="navigation_menu" value="//@rootContainer/@children.0/@children.0/@children.0"/>
-  <widgetMap key="nav_button" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0"/>
   <widgetMap key="nav_button1" value="//@rootContainer/@children.0/@children.0/@children.0/@children.1"/>
   <widgetMap key="nav_button2" value="//@rootContainer/@children.0/@children.0/@children.0/@children.2"/>
   <widgetMap key="user_button" value="//@rootContainer/@children.0/@children.0/@children.0/@children.3"/>
   <widgetMap key="page" value="//@rootContainer/@children.1"/>
+  <widgetMap key="policies" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0"/>
+  <widgetMap key="menu" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0"/>
+  <widgetMap key="new_policy" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.0"/>
+  <widgetMap key="search" value="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@children.0/@children.1"/>
 </uitemplate:Page>
