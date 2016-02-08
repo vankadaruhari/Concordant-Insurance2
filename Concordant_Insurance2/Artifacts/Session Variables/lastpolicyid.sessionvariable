@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nsSessionVariable:SessionVariable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nsAttributeDatatypes="http://xcp.emc.com/attribute_datatypes" xmlns:nsSessionVariable="http://xcp2.emc.com/sessionvariableconfiguration" urn="urn:ci2:com.emc.xcp.artifact.sessionvariable:Artifacts/Session Variables/lastpolicyid.sessionvariable" categoryId="com.emc.xcp.artifact.sessionvariable" name="lastpolicyid" label="LastPolicyId" cookieEnabled="true">
+  <type xsi:type="nsAttributeDatatypes:StringType"/>
+  <value>
+    <expression exprStr=""/>
+  </value>
+</nsSessionVariable:SessionVariable>
