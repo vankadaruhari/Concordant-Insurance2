@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nsApprole:AppRole xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:nsApprole="http://xcp2.emc.com/approle" urn="urn:ci2:com.emc.xcp.artifact.approle:Artifacts/Roles/clerk.role" categoryId="com.emc.xcp.artifact.approle" name="clerk" label="Clerk" description="Clerk Details"/>
